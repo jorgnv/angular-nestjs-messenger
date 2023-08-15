@@ -17,12 +17,12 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       inject: [ConfigService], // Inject ConfigService
       useFactory: async (configService: ConfigService) => ({
         type: 'mysql',
-        host: configService.get<string>('DB_HOST'),
-        port: configService.get<number>('DB_PORT'),
-        username: configService.get<string>('DB_USERNAME'),
-        password: configService.get<string>('DB_PASSWORD'),
-        database: configService.get<string>('DB_DATABASE'),
-        entities: [__dirname + '/../**/*.entity{.ts,.js}'],
+        host: configService.get<string>('database.host'),
+        port: configService.get<number>('database.port'),
+        username: configService.get<string>('database.username'),
+        password: configService.get<string>('database.password'),
+        database: configService.get<string>('database.name'),
+        autoLoadEntities: true,
         synchronize: true,
       }),
     }),
