@@ -1,73 +1,68 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Angular NestJS Messenger App
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Este es un proyecto que implementa una aplicación de mensajería utilizando Angular en el frontend y NestJS en el backend. Permite a los usuarios enviar mensajes y ver los mensajes anteriores en tiempo real.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Características
 
-## Description
+- Interfaz de usuario para ver y enviar mensajes.
+- Los mensajes se almacenan en una base de datos MySQL.
+- Uso de Angular para el frontend y NestJS para el backend.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 🚀 Quick start
 
-## Installation
+1.  **Install dependencies frontend.**
 
-```bash
-$ npm install
-```
+    ```shell
+    cd frontend-angular
+    npm i
+    ```
+    
+2.  **Install dependencies backend and frontend**
 
-## Running the app
+    ```shell
+    cd backend-nestjs
+    npm i
+    ```
 
-```bash
-# development
-$ npm run start
+2.  **Start developing.**
 
-# watch mode
-$ npm run start:dev
+    From the frontend-angular folder
+    ```shell
+    ng serve
+    ```
+    
+    Desde la carpeta backend-nestjs
+    ```shell
+    npm run start:dev
+    ```
 
-# production mode
-$ npm run start:prod
-```
+3.  **Open the source code and start editing!**
 
-## Test
+    The site is now running at `http://localhost:4200` and backend `http://localhost:3000`!
 
-```bash
-# unit tests
-$ npm run test
+    Open the `angular-nestjs-messenger` directory in your code editor of choice and edit. Save your changes and the browser will update in real time!
 
-# e2e tests
-$ npm run test:e2e
+    ## Enviroment variables
 
-# test coverage
-$ npm run test:cov
-```
+    | Variable    | Usage                                                         |
+    | ------------| ------------------------------------------------------------- |
+    | PORT        | The port of the application that will be used, default `5000` |
+    | DB_NAME     | name of the main database                                     |
+    | DB_USERNAME | user to authenticate in database                              |
+    | DB_PASSWORD | password to authenticate in database                          |
+    | DB_HOST     | host where the connection to the database will be made        |
+    | DB_PORT     | database connection port                                      |
 
-## Support
+## use
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- The application displays a list of messages on the main screen.
+- You can type a new message in the text field and click the "Create Message" button to send it.
+- New messages will be automatically added to the list as they are created.
 
-## Stay in touch
+## Contribuciones
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+Contributions are welcome. If you'd like to improve this project, feel free to open a Pull Request.
 
-## License
+## Contacto
 
-Nest is [MIT licensed](LICENSE).
+If you have any questions or comments, you can reach me at [jorgnv@gmail.com](mailto:tu-email@example.com).
