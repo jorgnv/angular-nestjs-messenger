@@ -1,12 +1,12 @@
 # Angular NestJS Messenger App
 
-Este es un proyecto que implementa una aplicación de mensajería utilizando Angular en el frontend y NestJS en el backend. Permite a los usuarios enviar mensajes y ver los mensajes anteriores en tiempo real.
+This is a project that implements a messaging application using Angular on the frontend and NestJS on the backend. It allows users to send messages and view previous messages in real-time.
 
 ## Características
 
-- Interfaz de usuario para ver y enviar mensajes.
-- Los mensajes se almacenan en una base de datos MySQL.
-- Uso de Angular para el frontend y NestJS para el backend.
+- User interface for viewing and sending messages.
+- Messages are stored in a MySQL database.
+- Utilizes Angular for the frontend and NestJS for the backend.
 
 ## 🚀 Quick start
 
